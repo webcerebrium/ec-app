@@ -1,7 +1,7 @@
 # ec-app
 Enormous Cloud Application distribution. It includes only standard components
 
-## The Sinplest Example of Enormous Cloud Application
+## The Simplest Example of Enormous Cloud Application
 
 Basically all it does, it renders _Hello world_ application stored in JSON just using ec-app bundle distribution.
 It should promptly render your components from JSON, embedding application into `DIV` container provided.
