@@ -1,0 +1,20 @@
+{
+  "name": "ec-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ec-react15-lib": "^0.5.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && npm run build:clean",
+    "build:clean": "cd build && mv static/js/*.js ec-app.js && rm -r static *.json *.html *.ico service-worker.js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
