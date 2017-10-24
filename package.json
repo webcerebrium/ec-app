@@ -1,9 +1,9 @@
 {
   "name": "ec-app",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
-    "ec-react15-lib": "^0.5.4",
+    "ec-react15-lib": "^0.6.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
